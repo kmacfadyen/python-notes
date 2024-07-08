@@ -130,3 +130,17 @@ print(set_courses)
 
 # To create an empty list, you can use [] or list(), same for tuples but with ()
 # However, {} will create a dictionary when creating an empty set. Use set() instead
+
+--------------------------
+
+# CS50 Python
+
+# "python intro.py" will run the program from command line
+
+name = input("What's your name? ").strip().title() # Asks for input from the user
+
+# name = name.strip() # Strips whitespace from str
+# name = name.title()
+
+print("Hello,", name)
+# print(f"Hello, {name}") # This also works
